@@ -1,0 +1,12 @@
+name: "Tokens"
+main: "com.sxtanna.mc.EconomyPlugin"
+
+version: "1.0.0"
+website: "https://www.sxtanna.com"
+authors: ["Sxtanna"]
+
+api-version: "1.13"
+
+softdepend:
+  - "ProtocolLib"
+  - "PlaceholderAPI"

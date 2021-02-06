@@ -1,0 +1,36 @@
+gains:
+  message:
+    chat: "&7You have gained &a{tokens} &7tokens!"
+    holo: "&3&lTokens &a&l+{tokens}"
+    limit: "&cYou have reached your token gain limit!"
+
+plugin:
+  reload: "&aSuccessfully reloaded economy!"
+
+balance:
+  sender: "&7Your balance is &a{balance}"
+  target: "&b{target}'s&7 balance is &a{balance}"
+
+add:
+  success: "&7Added &a{amount}&7 tokens to &b{target}'s&7 balance, they now have &a{balance}&7 tokens!"
+  failure: "&cFailed to add &a{amount}&c tokens to &b{target}'s&c balance: &4{reason}"
+
+rem:
+  success: "&7Removed &a{amount}&7 tokens from &b{target}'s&7 balance, they now have &a{balance} tokens!"
+  failure: "&cFailed to remove &a{amount}&c tokens from &b{target}'s&c balance: &4{reason}"
+
+set:
+  success: "&7Set &b{target}'s&7 balance to &a{amount}"
+  failure: "&cFailed to set &b{target}'s&c balance to &a{amount}&c: &4{reason}"
+
+pay:
+  failure: "&cFailed to pay &b{target}&c &a{amount}&c: &4{reason}"
+  success-sender: "&7Paid &b{target}&7 &a{amount}&7 tokens, your balance is now &a{sender_balance}"
+  success-target: "&7Received &a{amount}&7 from &b{sender}&7, your balance is now &a{target_balance}"
+
+error:
+  reload: "&cFailed to reload economy: &4{reason}"
+  no-user-in-bank: "&c{target} does not have a tokens account!"
+  generic:
+    no-permission: "&cYou don't have permission to do this"
+    player-needed: "&cYou must supply a player!"
